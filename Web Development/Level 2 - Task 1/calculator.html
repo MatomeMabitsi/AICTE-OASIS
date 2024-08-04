@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Levwl 2 - Task 1 : Calculator">
-
-    <!-- For Style  -->
-    <link rel="stylesheet" href="styles.css"> 
-    
-    <!-- For JavaScript  -->
-    <script src="script.js"></script> 
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 style="text-align: center; font-family:'Times New Roman', Times, serif ;">Calculator</h1>
-
-    </header>
-    
-    <main>
-        <div class="calculator">
-
-            
-
-        </div>
-    </main>
-
-    <footer>
+  <div class="calculator">
+    <div class="disp">
+        <input type="text" id="display" disabled>
+    </div>
+    <br>
+  
+    <div class="buttons">
         
-    </footer>
+      <button onclick="appendToDisplay('7')">7</button>
+      <button onclick="appendToDisplay('8')">8</button>
+      <button onclick="appendToDisplay('9')">9</button>
+      <button onclick="appendToDisplay('/')">/</button>
+      <button onclick="appendToDisplay('4')">4</button>
+      <button onclick="appendToDisplay('5')">5</button>
+      <button onclick="appendToDisplay('6')">6</button>
+      <button onclick="appendToDisplay('*')">*</button>
+      <button onclick="appendToDisplay('1')">1</button>
+      <button onclick="appendToDisplay('2')">2</button>
+      <button onclick="appendToDisplay('3')">3</button>
+      <button onclick="appendToDisplay('-')">-</button>
+      <button onclick="appendToDisplay('0')">0</button>
+      <button onclick="appendToDisplay('.')">.</button>
+      <button style="background-color: red;" onclick="clearDisplay()">C</button>
+      <button style="background-color: green;"onclick="calculate()">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
