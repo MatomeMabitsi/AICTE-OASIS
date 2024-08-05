@@ -8,11 +8,11 @@ body {
   }
   
   .calculator {
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 25px solid #0004ff;
+    border-radius: 150zpx;
     padding: 20px;
-    background-color: #03e2f6;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+   
   }
   
   #display {
@@ -23,13 +23,13 @@ body {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: rgb(94, 93, 93);
-    color: #e0e0e0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
   }
   
