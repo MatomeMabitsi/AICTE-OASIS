@@ -1,14 +1,14 @@
 const display = document.getElementById('display');
 
-function appendToDisplay(value) {
+function addToDisp(value) {
   display.value += value;
 }
 
-function clearDisplay() {
+function clearScreen() {
   display.value = '';
 }
 
-function calculate() {
+function calculateResult() {
   try {
     display.value = eval(display.value);
   } catch (error) {

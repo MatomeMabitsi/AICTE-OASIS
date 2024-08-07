@@ -8,15 +8,15 @@ body {
   }
   
   .calculator {
-    border: 25px solid #0004ff;
-    border-radius: 150zpx;
-    padding: 20px;
-    background-color: #000000;
+    border: 10px solid #0004ff;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #0004ff;
    
   }
   
   #display {
-    width: 100%;
+    width: 95%;
     height: 40px;
     font-size: 24px;
     text-align: right;
@@ -38,7 +38,7 @@ body {
     height: 60px;
     font-size: 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
     background-color: #f0f0f0;
   }
@@ -52,3 +52,5 @@ body {
     color: #fff;
   }
   
+
+/* CSS */
