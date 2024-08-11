@@ -3,16 +3,17 @@
 }
 
 .column {
-    float: left;
+    box-shadow: blueviolet;
     width: 100%;
     padding: 0 10px;
     margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  /* Remove extra left and right margins, due to padding */
   .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
@@ -20,17 +21,12 @@
 
     
   }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
+
+  .card:hover {
+    background-color: rgb(255, 255, 255);
   }
   
-  /* Style the counter cards */
+
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -39,6 +35,8 @@
     margin-bottom: 5px;
     text-align:left;
     border-radius: 10px;
+    width: 70%;
+    align-self: center;
   }
 
   .cardhead {
@@ -54,7 +52,7 @@
     color: beige;
     height: 150px;
     border-radius: 10px;
-    
+    width: 70%;
   }
 
   * {
@@ -91,4 +89,11 @@
     height: 600px;
     background-color: #b0afbf;
     border-radius: 10px;
+    width: 70%;
+  }
+
+  .messimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
